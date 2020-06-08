@@ -10,20 +10,34 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-@foreach (var item in Model)
-{
-    var photoPath = "~/Uploads/" + (item.ImagePath) ?? "niimage.jpg";
+<div class="container">
 
-    <div class="card" style="width: 18rem;">
-        <img src="@photoPath" class="card-img-top" alt="IMG-PRODUCT" asp-append-version="true">
+    <div class="row">
 
-        <div class="card-body">
-            <h5 class="card-title">@item.Name</h5>
-            <p class="card-text">  @item.Caption  </p>
-            <a href="#" class="btn btn-primary">Reed More</a>
+
+        @foreach (var item in Model)
+        {
+            var photoPath = "~/Uploads/" + (item.ImagePath) ?? "niimage.jpg";
+            <a style="color: black" asp-route-id="@item.Id" asp-action="ReedMore" asp-controller="Blogs">
+
+                <div style="margin-bottom:20px" class="col col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="@photoPath" class="card-img-top" alt="IMG-PRODUCT" asp-append-version="true">
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">  @item.Caption  </p>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+                </a>
+                }
         </div>
-    </div>
-}
+</div>
 
 <br />
 <br />

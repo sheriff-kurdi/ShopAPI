@@ -183,3 +183,10 @@ C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\Edit.cshtml.g.cs
 C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\Index.cshtml.g.cs
 C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\ListBlogs.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Views\Account\AddEditor.cshtml.g.cs
+C:\Users\sheri\source\repos\YallaMedia\YallaMedia\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\ReedMore.cshtml.g.cs
