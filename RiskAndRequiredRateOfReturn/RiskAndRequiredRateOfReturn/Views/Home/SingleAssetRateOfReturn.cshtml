@@ -1,0 +1,40 @@
+﻿@model RiskAndRequiredRateOfReturn.Models.ShareRateOfReturnVM
+
+@{
+    ViewData["Title"] = "SingleAssetRateOfReturn";
+}
+
+<h1>SingleAssetRateOfReturn</h1>
+
+<h4>ShareRateOfReturnVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SingleAssetRateOfReturn">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CashFlowReceved" class="control-label"></label>
+                <input asp-for="CashFlowReceved" class="form-control" />
+                <span asp-validation-for="CashFlowReceved" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValueAtBeginning" class="control-label"></label>
+                <input asp-for="ValueAtBeginning" class="form-control" />
+                <span asp-validation-for="ValueAtBeginning" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValueAtEnding" class="control-label"></label>
+                <input asp-for="ValueAtEnding" class="form-control" />
+                <span asp-validation-for="ValueAtEnding" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
